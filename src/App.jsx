@@ -1,13 +1,16 @@
-import React from "react"
+import React from 'react';
+import Navbar from './Navbar';
+import Main from './Main';
 
-
-export default function App() {
+const App = () => {
   return (
-    
-    <>
-    <nav className="flex sm:justify-center space-x-4"> </nav>
-    <Nav/>
-    </>
-  )
+    <div className="bg-gray-100">
+      <Navbar />
+      <Main />
+    </div>
+  );
 }
+
+export default App;
+
 
