@@ -1,11 +1,11 @@
 import React from 'react';
-import Navbar from './Navbar';
-import Main from './Main';
+import Nav from './components/Nav';
+import Main from './components/Main';
 
 const App = () => {
   return (
     <div className="bg-gray-100">
-      <Navbar />
+      <Nav />
       <Main />
     </div>
   );
