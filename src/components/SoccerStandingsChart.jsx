@@ -10,10 +10,11 @@ const FetchDataComponent = () => {
         'x-rapidapi-key': import.meta.env.VITE_REACT_APP_API_KEY,
         'x-rapidapi-host': 'api-football-v1.p.rapidapi.com'
       }
-    })
+    }) // Define callback to run when promise returned 
     .then(response => {
+      //log recived data
       console.log(response.data);
-    })
+    }) // callback runs when promise retunred is rejected 
     .catch(err => {
       console.error(err);
     });
