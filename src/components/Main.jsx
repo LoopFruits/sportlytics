@@ -1,4 +1,5 @@
 import React from 'react';
+import SoccerStandingsChart from './SoccerStandingsChart';
 
 // contains main content of app 
 const Main = () => {
@@ -10,6 +11,7 @@ const Main = () => {
       <div className="px-4 py-6 sm:px-0">
         <div className="border-4 border-dashed border-gray-200 rounded-lg h-96">
           {/* Insert your data visualization here */}
+          <SoccerStandingsChart/>
         </div>
       </div>
     </main>
