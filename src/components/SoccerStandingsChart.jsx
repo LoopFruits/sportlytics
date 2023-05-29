@@ -5,7 +5,7 @@ const FetchDataComponent = () => {
   useEffect(() => {
     axios({
       method: 'GET',
-      url: 'https://api-football-v1.p.rapidapi.com/v2/timezone',
+      url: 'https://api-football-v1.p.rapidapi.com/v2/leagues',
       headers: {
         'x-rapidapi-key': import.meta.env.VITE_REACT_APP_API_KEY,
         'x-rapidapi-host': 'api-football-v1.p.rapidapi.com'
