@@ -2,6 +2,7 @@
 
 
 Description
+
 The Sports Analytical Application is a comprehensive tool designed for sports enthusiasts, players, and coaches alike. Our platform leverages vast sports data to provide detailed and insightful player statistics.
 
 Users can search for their favorite players and instantly receive a plethora of relevant statistical data. This application aims to provide an in-depth understanding of a player's performance, strengths, and areas that need improvement.
@@ -9,6 +10,7 @@ Users can search for their favorite players and instantly receive a plethora of 
 It is an invaluable tool for fantasy league enthusiasts, helping them make informed decisions based on player performance data. Coaches can also utilize this tool to analyze opposition players and devise better game strategies.
 
 Technologies Used
+
 React: Used for building the user interface components of the application.
 Vite: A build tool that significantly improves the development experience, used for setting up the React application.
 Axios: Used for making HTTP requests to the API and fetching player data.
